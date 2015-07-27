@@ -28,6 +28,43 @@
   <?php } ?>
   </div>
 </section>
+<section data-id="links" class="window" hidden>
+  <?php
+    $links = $site->find('links');
+    $links_items = $links->children()->visible();
+  ?>
+  <ul>
+  <?php
+    foreach ($links_items as $link_item) :
+  ?>
+    <li>
+      <a href="<?=$link_item->link()?>">
+        <ul class="keywords">
+        <?php
+          $keywords = a::sort($link_item->keywords()->split(','),null,'asc');
+          $n = 0;
+          foreach($keywords as $keyword):
+            $n++;
+        ?>
+          <li>
+            <?=$keyword?>
+          </li>
+        <?php
+          endforeach
+        ?>
+        </ul>
+        <span class="language">
+          <?=$link_item->language()?>
+        </span>
+        <strong><?=$link_item->title()?></strong>
+        <?=$link_item->subtitle()?>
+      </a>
+    </li>
+    <?php
+      endforeach
+    ?>
+  </ul>
+</section>
 <section data-id="donate" class="window" hidden>
   <?php
     $donate = $site->find('donate');
@@ -43,7 +80,7 @@
       <small><?=$donate->bank_small_text()->html()?></small>
     </div>
     <div class="buttons">
-      <a href="<?=$donate->paypal_url()?>" class="button paypal">Donate by PayPal</a><br>
+      <a href="<?=$donate->paypal_url()?>" class="button paypal"><?=$donate->paypal_text()?></a><br>
       <small><?=$donate->button_info()->html()?></small>
     </div>
   </div>
@@ -85,41 +122,4 @@
       <strong><?=$donated?> €</strong>
     </div>
   </div>
-</section>
-<section data-id="links" class="window" hidden>
-  <?php
-    $links = $site->find('links');
-    $links_items = $links->children();
-  ?>
-  <ul>
-  <?php
-    foreach ($links_items as $link_item) :
-  ?>
-    <li>
-      <a href="<?=$link_item->link()?>">
-        <ul class="keywords">
-        <?php
-          $keywords = a::sort($link_item->keywords()->split(','),null,'asc');
-          $n = 0;
-          foreach($keywords as $keyword):
-            $n++;
-        ?>
-          <li>
-            <?=$keyword?>
-          </li>
-        <?php
-          endforeach
-        ?>
-        </ul>
-        <span class="language">
-          <?=$link_item->language()?>
-        </span>
-        <strong><?=$link_item->title()?></strong>
-        <?=$link_item->subtitle()?>
-      </a>
-    </li>
-    <?php
-      endforeach
-    ?>
-  </ul>
 </section>

@@ -43,6 +43,12 @@
       width: 100%;
       text-align: center;
       padding: 0 1em;
+      a {
+        color: inherit;
+        &:focus, &:hover {
+          text-decoration: underline;
+        }
+      }
       @media (min-width: 800px) {
       padding: 0 3em;
       }
@@ -53,4 +59,3 @@
     }
   }
 }
-

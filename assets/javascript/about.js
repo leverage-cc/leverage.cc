@@ -96,17 +96,9 @@ function About() {
 					easing: 'easeInOutCubic'
 				});
 				break;
-			case 'hardware':
+			case 'about':
 				Velocity(_sectionsElement,{
 					translateX: '-100%'
-				},{
-					duration: 350,
-					easing: 'easeInOutCubic'
-				});
-				break;
-			case 'software':
-				Velocity(_sectionsElement,{
-					translateX: '-200%'
 				},{
 					duration: 350,
 					easing: 'easeInOutCubic'

@@ -31,10 +31,6 @@ Bank-account:
 
 ----
 
-Flattr-url: https://flattr.com/submit/auto?user_id=tobiasf&url=http://leverage.cc&title=Leverage&description=Bachelor_Thesis_by_Phillip_Klein_&_Tobias_Wolf&language=en_GB&tags=art&hidden=0&category=rest
-
-----
-
 Button-info: PayPal keeps 1,2 % plus 35 cent of your donation.
 
 ----
@@ -44,3 +40,7 @@ Bank-small-text: <a href="bank://singlepaymentsepa?name=TOBIAS%20FABIAN%20WOLF&r
 ----
 
 Bank-account-title: Bank Account
+
+----
+
+Paypal-text: Donate via PayPal

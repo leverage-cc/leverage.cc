@@ -1,6 +1,6 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Link
+title: Links
 pages:
   template: link
 files: false

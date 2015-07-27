@@ -11,8 +11,7 @@ function urlHandler(url) {
 			LINKS.hide();
 			break;
 		case 'about/abstract':
-		case 'about/hardware':
-		case 'about/software':
+		case 'about/about':
 			ABOUT.show();
 			ABOUT.showSub(_url.substr(_url.indexOf('/')+1));
 			DONATE.hide();

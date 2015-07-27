@@ -1,6 +1,6 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Page
+title: Donate
 pages: donate_item
 files: true
 fields:
@@ -20,9 +20,9 @@ fields:
   paypal_url:
     label: PayPal URL
     type: url
-  flattr_url:
-    label: Flattr URL
-    type: url
+  paypal_text:
+    label: PayPal Text
+    type: text
   button_info:
     label: Button Info
     type: textarea

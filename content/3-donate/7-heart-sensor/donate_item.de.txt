@@ -1,4 +1,4 @@
-Title: ECG Sensor (BioVolt v1.0)
+Title: EKG Sensor (BioVolt v1.0)
 
 ----
 

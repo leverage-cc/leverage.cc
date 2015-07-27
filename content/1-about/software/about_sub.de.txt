@@ -1,9 +1,0 @@
-Title: Software
-
-----
-
-Text: 
-
-* Arduino IDE
-* Node.js
-* GitHub

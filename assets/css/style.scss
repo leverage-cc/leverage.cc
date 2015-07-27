@@ -34,8 +34,6 @@ body {
 	padding: 1em;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-	// background: url(../images/rows.png) center -7px fixed;
-	// background-size: 2px 44px;
   @media (min-width: 600px) {
   	padding: 1em 2em;
   }
@@ -85,6 +83,17 @@ a {
 			&.active {
 				opacity: 0.2;
 			}
+      &.social {
+        opacity: 0.7;
+        margin-left: -0.4em;
+        padding: 0.5em 0.4em;
+        img {
+          display: block;
+        }
+        &:focus, &:hover {
+          opacity: 1;
+        }
+      }
 			&.lang {
   			margin-top: 0.35em;
         text-transform: uppercase;
