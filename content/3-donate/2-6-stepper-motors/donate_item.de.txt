@@ -1,0 +1,9 @@
+Title: 6 Schrittmotoren
+
+----
+
+Price: 285
+
+----
+
+Link: http://www.exp-tech.de/robotik/servos-motoren/stepper-motor-bipolar-200-steps-rev-56-76mm-3-2v-2-8-a-phase

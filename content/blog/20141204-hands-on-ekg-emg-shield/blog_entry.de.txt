@@ -1,0 +1,29 @@
+Title: Test mit EKG/EMG-Shield
+
+----
+
+Text: 
+
+Heute erhielten wir die benötigte Hardware um mit dem Bau des Wearables, das elektrophysiologische Daten sammelt, für unseren Darsteller zu beginnen. Ein (link: https://www.olimex.com/Products/Duino/Shields/SHIELD-EKG-EMG/open-source-hardware text: EKG-EMG-Shield) und die dazu benötigten (link: https://www.olimex.com/Products/Duino/Shields/SHIELD-EKG-EMG-PA/open-source-hardware text: seriellen Kabel).
+
+(image: hands-on-ekg.jpg)
+
+Zuerst verbanden wir das EKG-EMG-Shield mit einem (link: http://arduino.cc/en/Main/arduinoBoardUno text: Arduino UNO R3), luden eine (link: https://gist.github.com/tobiasfabian/f83bdbbee90df592ed5e#file-drawing-usb-serial-data text: modifizierte Version) des (link: https://www.olimex.com/Products/Duino/Shields/SHIELD-EKG-EMG/resources/ShieldEkgEmgDemo.zip text: Beispiel-Codes) hoch. Anschließend fixierten wir zwei der Kabel an Tobias Handgelenk, das dritte an seinen Fußknöchel. Wir interpretierten diesen seriellen Datenstrom mit Processing zu einer (link: https://gist.github.com/tobiasfabian/f83bdbbee90df592ed5e#file-drawing-usb-serial-data text: graphischen Repräsentation) um. Das ist was wir erhielten:
+
+(video: ekg-processing.mp4 autoplay: true loop: true)
+
+Das ist natürlich noch nicht die schöne Form eines klassischen ECGs. Wir empfangen noch sehr viel Rauschen, was insbesondere am trockenen Kontakt liegt. Aber irgendwo in diesem Wald aus Punkten ist eine repetitives Muster zu erkennen. Und wir sind uns ziemlich sicher, dass dieses Interval Tobias Puls darstellt.
+
+Wir werden es später noch einmal testen, mit besseren Kontakten und weniger Rauschen. Dafür werden wir ein besseres (link: https://www.olimex.com/Products/Duino/Shields/SHIELD-EKG-EMG-PRO/ text: serielles Kabel) mit passenden (link: https://www.olimex.com/Products/Modules/Biofeedback/ECG-GEL-ELECTRODE/ text: Gel-Elektroden) erwerben.
+
+----
+
+Date: 2014-12-04
+
+----
+
+Author: tobias
+
+----
+
+Keywords: EKG,EMG

@@ -1,0 +1,56 @@
+[data-id="about"] {
+  color: white;
+  background: black;
+  .cite {
+    margin-top: -0.1em;
+    margin-bottom: 2em;
+    font-size: $fontSize30;
+    line-height: 1.2em;
+    font-weight: 400;
+    p {
+      margin: 0;
+    }
+  }
+  nav {
+    display: flex;
+    margin-bottom: 1.5em;
+    justify-content: center;
+    font-size: $fontSize11;
+    text-transform: uppercase;
+    a {
+      display: block;
+      padding: 0.3em 1em 0.1em;;
+      border: 1px solid $colorRed;
+      margin-left: -1px;
+      transition: opacity 350ms ease;
+      &:first-child {
+        margin-left: 0;
+      }
+      &:not(.active):focus, &:not(.active):hover {
+        color: black;
+        background-color: $colorRed;
+      }
+      &.active {
+        opacity: 0.6;
+      }
+    }
+  }
+  .sections {
+    display: flex;
+    article {
+      flex: none;
+      box-sizing: border-box;
+      width: 100%;
+      text-align: center;
+      padding: 0 1em;
+      @media (min-width: 800px) {
+      padding: 0 3em;
+      }
+      ul {
+        list-style: none;
+        padding-left: 0;
+      }
+    }
+  }
+}
+

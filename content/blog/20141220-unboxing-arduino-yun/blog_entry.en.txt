@@ -1,0 +1,23 @@
+Title: Unboxing Arduino YÚN
+
+----
+
+Date: 2014-12-20
+
+----
+
+Author: phillip
+
+----
+
+Keywords: Arduino YÚN,node.js
+
+----
+
+Text: 
+
+We got mail. Our favorite retailer sent us a package containing an (link: http://arduino.cc/en/Main/ArduinoBoardYun?from=Products.ArduinoYUN text: Arduino YÚN) and an appropriate (link: https://www.olimex.com/Products/Duino/Shields/SHIELD-EKG-EMG-PRO/ text: serial wire) for Olimex' (link: https://www.olimex.com/Products/Duino/Shields/SHIELD-EKG-EMG/ text: EKG-EMG-Shield).
+
+(image: unboxing_yun.jpg)
+
+Arduino YÚN is important for the next steps. It enables realtime electrophysiological data transfer from performer to the flexible stage environment via Wi-Fi and (link: http://nodejs.org/ text: node.js).

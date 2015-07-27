@@ -1,0 +1,29 @@
+Title: Hands on EKG/EMG-Shield
+
+----
+
+Text: 
+
+Today we were receiving the necessary hardware to start crafting the wearable device collecting electrophysiological data from the performer. An (link: https://www.olimex.com/Products/Duino/Shields/SHIELD-EKG-EMG/open-source-hardware text: EKG-EMG-Shield) and the necessary (link: https://www.olimex.com/Products/Duino/Shields/SHIELD-EKG-EMG-PA/open-source-hardware text: serial wire).
+
+(image: hands-on-ekg.jpg)
+
+First we connected the EKG-EMG-Shield to an (link: http://arduino.cc/en/Main/arduinoBoardUno text: Arduino UNO R3) uploading a (link: https://gist.github.com/tobiasfabian/f83bdbbee90df592ed5e#file-drawing-usb-serial-data text: modified version) of the (link: https://www.olimex.com/Products/Duino/Shields/SHIELD-EKG-EMG/resources/ShieldEkgEmgDemo.zip text: example code). Afterwards we fixed two of the cables at Tobias’ wrists, the odd one at his ankle. Established serial data-stream to Processing and coded a simple (link:https://gist.github.com/tobiasfabian/f83bdbbee90df592ed5e#file-drawing-usb-serial-data text: graphical representation). This is what we got so far.
+
+(video: ekg-processing.mp4 autoplay: true loop: true)
+
+Of course we lack the beautiful shape of the classic ECG Curve. Actually we got shiploads of noise here due to dry skin contact. But somewhere down in this dotty forest apparently we find a repetitive pattern. And we are pretty sure that its interval appears synchronous to Tobias’ pulse.
+
+We get it tested another time with proper skin contact and less noise. Therefore we purchase a better (link: https://www.olimex.com/Products/Duino/Shields/SHIELD-EKG-EMG-PRO/ text: serial wire) with matching (link: https://www.olimex.com/Products/Modules/Biofeedback/ECG-GEL-ELECTRODE/ text: gel electrodes).
+
+----
+
+Date: 2014-12-04
+
+----
+
+Author: phillip
+
+----
+
+Keywords: EKG,EMG

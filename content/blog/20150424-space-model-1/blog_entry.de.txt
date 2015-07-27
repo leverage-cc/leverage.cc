@@ -1,0 +1,21 @@
+Title: Raum-Modell Nr. 1
+
+----
+
+Date: 2015-04-24
+
+----
+
+Author: phillip
+
+----
+
+Keywords: Model,Elastic,Room,Space
+
+----
+
+Text: 
+
+Das erste, grobe Modell unseres flexiblen Raumes, dem Kernstück unseres Projektes, ist fertig!
+Der elastische Stoff, der den Raum bildet, ist an acht Seilen aufgehängt. Zieht man an den Seilen vergrößert sich der Raum. Durch die Elastizität verkleinert sich der Raum, sobald man Spannung von den Seilen nimmt. Um den Raum kubischer erscheinen zu lassen werden wir jeweils einen Stab zwischen den vertikalen Knotenpunkte befestigen.
+(video: model_1.mp4 autoplay: true loop: true)

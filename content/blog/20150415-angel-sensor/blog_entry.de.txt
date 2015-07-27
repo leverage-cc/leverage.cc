@@ -1,0 +1,23 @@
+Title: Angel Sensor
+
+----
+
+Date: 2015-04-15
+
+----
+
+Author: phillip
+
+----
+
+Keywords: Sensor
+
+----
+
+Text: 
+
+(image: angel.jpg)
+
+(link: http://www.angelsensor.com/ text: Angel) ist ein Fitnessarmband mit einem Open-Source-SDK. Der Sensor erfasst Puls, 3D-Beschleunigung, 3D-Ausrichtung und Temperatur. Für eine zukünftige Version ist sogar ein Sensor für den Blutsauerstoffgehalt geplant.
+
+Das SDK ermöglicht die Rohdaten in Echtzeit auszulesen und zu verarbeiten. Die Datenübertragung erfolgt über Bluetooth LE. Der Angel Sensor wäre die perfekte Hardware für unser Vorhaben. Leider ist der Angel Sensor im Moment nicht verfügbar, vielleicht haben wir das Glück einen bei der nächsten Charge abzubekommen.

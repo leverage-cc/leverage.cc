@@ -1,0 +1,20 @@
+Title: Space Model #1
+
+----
+
+Date: 2015-04-24
+
+----
+
+Author: phillip
+
+----
+
+Keywords: Model
+
+----
+
+Text: 
+
+We just finished a first rough model of the flexible space – the centerpiece of our project. Its faces are vanishing to the inside, lazy to follow the applied forces on the eight corners. To prevent this effect and to create plane faces we need to apply 4 rods in every corner between each vertical pair of knots. Have a look!
+(video: model_1.mp4 autoplay: true loop: true)

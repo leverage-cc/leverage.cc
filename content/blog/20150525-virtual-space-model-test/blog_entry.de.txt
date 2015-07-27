@@ -1,0 +1,20 @@
+Title: Virtuelles Raum-Modell – Test
+
+----
+
+Date: 2015-05-25
+
+----
+
+Author: phillip
+
+----
+
+Keywords: Blender,3D,Karim Eich
+
+----
+
+Text: 
+
+Der 3D Generalist (link: http://karim-eich.de/ text: Karim Eich) hilft uns für Anschauungszwecke ein virtuelles Modell des flexiblen Raums umzusetzen. Das ist sein erster Test!
+(image: leveragetest01.gif alt: Environment 3D Test)

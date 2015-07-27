@@ -1,0 +1,27 @@
+Title: Space Model #2
+
+----
+
+Date: 2015-07-26
+
+----
+
+Author: tobias
+
+----
+
+Keywords: Model,summaery2015
+
+----
+
+Text: 
+
+For the (link: http://summaery.uni-weimar.de/de/universitaet/profil/veranstaltungen/veranstaltungen-2015/summaery2015/projekte/ text: summaery2015) we exhibited our space model.
+
+(video: model-summaery.mp4 autoplay: true loop: true)
+
+The model’s movement depends on the recipient’s live heart beat. The heart beat is measured by the *(link: http://infusionsystems.com/catalog/product_info.php/products_id/198 text: BioVolt)* breast strap. The breast strap is connected to an *Arduino YÚN* which sends the data via Wi-Fi to a computer. The computer is connected to an *Arduino Uno* which drives a (link: https://www.sparkfun.com/products/10846 text: stepper motor). The motor winds and unwinds the strings. The mesh fabric, which shapes the room, is mounted with the strings.
+
+We learned how to transfer the signal of the beating heart with an *Arduino YÚN* via Wi-Fi to *PureData*. We experienced that the motor we use is to weak – we thought it would be more than strong enough. That’s the reason why the mesh fabric couldn’t be stretched far enough. As a consequence the mesh fabric is shaky.
+
+In other news, because of private reason, Phillip will no longer be part of the team. I, Tobias, will continue the project with the support of friends and as a next step I will begin to build the room. scale 1:1.

@@ -1,0 +1,8 @@
+Title: Hardware
+
+----
+
+Text:
+* Arduino Yún
+* Olimex Shield EKG/EMG
+* 9V Batterie

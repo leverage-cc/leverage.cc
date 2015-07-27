@@ -1,0 +1,20 @@
+Title: Virtual Space Model Test
+
+----
+
+Date: 2015-05-25
+
+----
+
+Author: phillip
+
+----
+
+Keywords: Blender,3D,Karim Eich
+
+----
+
+Text: 
+
+The 3d all-rounder (link: http://karim-eich.de/ text: Karim Eich) helps us implement a virtual model of Leverage's Environment for demonstrative purpose. See his first test!
+(image: leveragetest01.gif alt: Environment 3D Test)

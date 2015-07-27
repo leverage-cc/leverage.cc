@@ -1,0 +1,23 @@
+Title: Angel Sensor
+
+----
+
+Date: 2015-04-15
+
+----
+
+Author: phillip
+
+----
+
+Keywords: Sensor
+
+----
+
+Text: 
+
+(image: angel.jpg)
+
+(link: http://www.angelsensor.com/ text: Angel) is a sensor that comes with a slick shaped wearable device and several useful data streams, such as optical PPG (heart rate), 3D accelerometer, 3D gyroscope and temperature. They even plan a blood oxygen sensor for a future device update.
+
+Their API grants access to real-time raw data to be able to process it on the fly. For wireless data transport they chose Bluetooth LE. Needless to say it would be a great improvement to make use of it in our final implementation. Unfortunately it is out of stock this minute. Maybe we will have a chance to get one with the next batch.

@@ -1,0 +1,20 @@
+Title: Building Space Model #2
+
+----
+
+Date: 2015-06-10
+
+----
+
+Author: phillip
+
+----
+
+Keywords: Model,Exoskeleton
+
+----
+
+Text: 
+
+We just finished the exoskeleton of our second model. Later we add a flexible tubular membrane attached to threads controled by a stepper motor. Stay tuned!
+(image: exoskeleton.jpg)

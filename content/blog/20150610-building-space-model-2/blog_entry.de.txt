@@ -1,0 +1,20 @@
+Title: Konstruktion Raum-Modell #2
+
+----
+
+Date: 2015-06-10
+
+----
+
+Author: phillip
+
+----
+
+Keywords: Exoskelett,Modell
+
+----
+
+Text: 
+
+Wir haben das Exoskelet unseres zweiten Modells fertiggestellt. Später werden wir eine flexible, tubenförmige Membran über Schnüre mit einem Schrittmotor verbinden. Man darf gespannt sein.
+(image: exoskeleton.jpg)

@@ -1,0 +1,46 @@
+Title: Donate
+
+----
+
+Text: 
+
+I will pay some materials.
+I’d love to list your name as a supporter. If you wish so, send me a mail: (email: Leverage < tobias.fabian.wolf@uni-weimar.de>?subject=Donation Leverage  text: tobias.fabian.wolf@uni-weimar.de)
+
+----
+
+Subtitle: Help to finance the project
+
+----
+
+Donated: 0
+
+----
+
+Paypal-url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=B6YYFDRQU5PWN
+
+----
+
+Bank-account: 
+
+*<abbr title="Beneficiary">Bnf</abbr>* Tobias Fabian Wolf
+*Bank* KSK Ostalb
+*IBAN* DE90 6145 0050 0805 2158 32
+*BIC* OASPDE6AXXX
+*<abbr title="Reference">Ref</abbr>* Donation Leverage
+
+----
+
+Flattr-url: https://flattr.com/submit/auto?user_id=tobiasf&url=http://leverage.cc&title=Leverage&description=Bachelor_Thesis_by_Phillip_Klein_&_Tobias_Wolf&language=en_GB&tags=art&hidden=0&category=rest
+
+----
+
+Button-info: PayPal keeps 1,2 % plus 35 cent of your donation.
+
+----
+
+Bank-small-text: <a href="bank://singlepaymentsepa?name=TOBIAS%20FABIAN%20WOLF&reason=Donation%20Leverage&iban=DE90614500500805215832&bic=OASPDE6AXXX&amount=20">payment link</a> (for your banking software)
+
+----
+
+Bank-account-title: Bank Account

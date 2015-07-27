@@ -1,0 +1,42 @@
+[data-id="links"] {
+  background: $colorBlue;
+  color: white;
+  font-weight: 400;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      margin-bottom: 2em;
+      a {
+        display: inline-block;
+        color: inherit;
+        strong {
+          margin-top: 0.1em;
+          margin-bottom: 0.2em;
+          display: block;
+          font-size: $fontSize19;
+        }
+        .language {
+          margin-left: 2em;
+          font-size: $fontSize11;
+        }
+        .keywords {
+          display: inline;
+          font-size: $fontSize11;
+          li {
+            display: inline;
+            &:not(:last-of-type)::after {
+              content: '/';
+            }
+          }
+        }
+        &:focus, &:hover {
+          strong {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
