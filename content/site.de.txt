@@ -10,7 +10,7 @@ Description: Bachelorarbeit von Tobias Wolf
 
 ----
 
-Keywords: Oskar Schlemmer,Bauhaus,Weimar,Tanz
+Keywords: Bauhaus,Weimar
 
 ----
 

@@ -20,6 +20,8 @@ Zur (link: http://summaery.uni-weimar.de/de/universitaet/profil/veranstaltungen/
 (video: model-summaery.mp4 autoplay: true loop: true)
 Das Modell reagiert auf den Herzschlag des Rezipienten. Der Herzschlag wird von dem *(link: http://infusionsystems.com/catalog/product_info.php/products_id/198 text: BioVolt)* Brustgurt gemessen. Der Brustgurt ist mit einem *Arduino YÚN* verbunden, der wiederum die Daten über Wi-Fi an einen Computer überträgt. Der Computer ist mit einem *Arduino Uno* verbunden, welcher eine (link: https://www.sparkfun.com/products/10846 text: Schrittmotor) steuert. Der Motor wickelt Fäden auf und ab. Der Mesh-Stoff, der den Raum bildet, ist an den Fäden aufgehängt. 
 
+Code & Fotos auf **(link: https://github.com/leverage-cc/Space-Model-2 text: GitHub)**.
+
 Wir lernten das Signal des schlagenden Herzens per *Arduino YÚN* über Wi-Fi an *PureData* zu übertragen. Wir stellten fest, dass der benutzte Motor zu schwach ist. Deshalb kann sich der Stoff nicht voll ausdehnen. Das ist der Grund für das Zittern des Stoffs.
 
 Außerdem wird Phillip aus privaten Gründen nicht weiter Teil des Teams sein. Ich, Tobias, werde mit der Unterstützung von Freunden das Projekt weiterführen und als nächsten Schritt mit dem Bau des Raums beginnen: Maßstab 1:1.
