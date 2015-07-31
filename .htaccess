@@ -47,3 +47,9 @@ RewriteRule ^(.*) index.php [L]
 # AddDefaultCharset UTF-8
 #
 # php_flag short_open_tag on
+
+
+
+RewriteCond %{HTTP_HOST} ^www.leverage.cc [OR]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^ https://leverage.cc/ [R=301,L]
