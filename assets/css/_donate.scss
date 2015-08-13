@@ -146,8 +146,9 @@
     .donors {
       position: absolute;
       bottom: 1em;
-      left: 0;
-      padding-left: 1.7em;
+      left: 1.7em;
+      right: 1.7em;
+      transition-duration: 100ms;
       h3 {
         font-size: 1em;
         margin: 0;
@@ -167,6 +168,10 @@
       }
       ul, .donors {
         opacity: 1;
+      }
+      .donors {
+        transition-duration: 350ms;
+        transition-delay: 350ms;
       }
       .donated {
         strong {
