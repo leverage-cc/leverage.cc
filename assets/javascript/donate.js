@@ -61,7 +61,15 @@ function Donate() {
 			height: _height+'%'
 		},{
 			duration: 350,
-			easing: 'easeOutCubic'
+			easing: 'easeOutCubic',
+			complete: function() {
+				setTimeout(function(){
+					_donationMeterElement.classList.add('hover');
+					setTimeout(function(){
+						_donationMeterElement.classList.remove('hover');
+					},350);
+				},350);
+			}
 		});
 	}
 

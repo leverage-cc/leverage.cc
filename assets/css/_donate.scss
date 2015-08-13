@@ -157,7 +157,7 @@
         margin: 0;
       }
     }
-    &:focus, &:hover {
+    &:focus, &:hover, &.hover {
       left: 79%;
     }
     &.active {
@@ -186,7 +186,7 @@
       ul {
         left: 20%;
       }
-      &:focus, &:hover {
+      &:focus, &:hover, &.hover {
         left: 74%;
       }
       &.active {

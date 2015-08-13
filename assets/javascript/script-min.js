@@ -298,7 +298,15 @@ function Donate() {
 			height: _height+'%'
 		},{
 			duration: 350,
-			easing: 'easeOutCubic'
+			easing: 'easeOutCubic',
+			complete: function() {
+				setTimeout(function(){
+					_donationMeterElement.classList.add('hover');
+					setTimeout(function(){
+						_donationMeterElement.classList.remove('hover');
+					},350);
+				},350)
+			}
 		});
 	}
 
@@ -331,6 +339,7 @@ function Donate() {
 }
 
 var DONATE = new Donate();
+
 
 var currentUrl = location.hash.substr(2);
 var isMouseOverWindowElement = false;
