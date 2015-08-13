@@ -35,3 +35,9 @@ fields:
   bank_small_text:
     label: Bank Small Text
     type: textarea
+  donors_title:
+    label: Donors Title
+    type:  text
+  donors:
+    label: Donors
+    type:  textarea

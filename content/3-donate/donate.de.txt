@@ -13,7 +13,7 @@ Subtitle: Hilf mir das Projekt zu finanzieren
 
 ----
 
-Donated: 0
+Donated: 900
 
 ----
 
@@ -44,3 +44,11 @@ Bank-account-title: Bankverbindung
 ----
 
 Paypal-text: Per PayPal spenden
+
+----
+
+Donors: Prof. Dr. Dr. Ekbert Hering
+
+----
+
+Donors-title: Vielen Dank an die Unterstützer:

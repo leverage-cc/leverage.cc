@@ -105,7 +105,7 @@
       right: 3px;
       background: $colorYellow;
       strong {
-        top: -1.9em;
+        top: -1em;
       }
     }
     strong {
@@ -115,7 +115,7 @@
       left: -4.7em;
       top: 0.23em;
       text-align: right;
-      transition: left 350ms ease, top 350ms ease;
+      transition: left 350ms ease, top 350ms ease, margin 350ms ease;
     }
     em {
       display: inline-block;
@@ -124,7 +124,8 @@
       font-style: normal;
       text-align: right;
     }
-    ul {
+    ul, .donors {
+      z-index: 1;
       position: relative;
       left: 30%;
       margin-top: 0.23em;
@@ -142,6 +143,19 @@
         }
       }
     }
+    .donors {
+      position: absolute;
+      bottom: 1em;
+      left: 0;
+      padding-left: 1.7em;
+      h3 {
+        font-size: 1em;
+        margin: 0;
+      }
+      p {
+        margin: 0;
+      }
+    }
     &:focus, &:hover {
       left: 79%;
     }
@@ -151,8 +165,14 @@
       strong {
         left: 30%;
       }
-      ul {
+      ul, .donors {
         opacity: 1;
+      }
+      .donated {
+        strong {
+          margin-top: 1em;
+          left: 0;
+        }
       }
     }
     }
@@ -168,6 +188,11 @@
         left: 2em;
         strong {
           left: 20%;
+        }
+        .donated {
+          strong {
+            left: 0%;
+          }
         }
       }
     }

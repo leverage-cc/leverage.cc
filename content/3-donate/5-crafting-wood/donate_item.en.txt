@@ -1,8 +1,8 @@
-Title: crafting wood
+Title: crafting wood & screws
 
 ----
 
-Price: 200
+Price: 300
 
 ----
 

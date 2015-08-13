@@ -96,11 +96,11 @@
       $dec_point = '.';
       $thousands_sep = ',';
     }
-    $sum = number_format($sum,0,$dec_point,$thousands_sep);
+    $sum_formatted = number_format($sum,0,$dec_point,$thousands_sep);
     $donated = number_format(html($donate->donated()),0,$dec_point,$thousands_sep);
   ?>
   <div class="donation_meter" data-sum="<?=$sum?>" data-donated="<?=$donated?>">
-    <strong><?=$sum?> €</strong>
+    <strong><?=$sum_formatted?> €</strong>
     <ul>
     <?php
       foreach ($donate_items as $donate_item) :
@@ -120,6 +120,10 @@
     </ul>
     <div class="donated">
       <strong><?=$donated?> €</strong>
+    </div>
+    <div class="donors">
+      <h3><?=$donate->donors_title()?></h3>
+      <p><?=$donate->donors()?></p>
     </div>
   </div>
 </section>

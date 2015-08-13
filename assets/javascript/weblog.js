@@ -5,7 +5,6 @@ function Weblog() {
 	var _element = document.querySelector('[data-id="weblog"]');
 
 	function _show(duration) {
-  	debugger;
     _element.style.opacity = null;
 		_element.style.translateY = null;
 
